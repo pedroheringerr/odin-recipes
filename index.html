@@ -3,15 +3,41 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Odin Recipes</title>
+		<link rel="stylesheet" href="styles/style.css">
 	</head>
-
 	<body>
-		<h1>Odin Recipes</h1>
+		<h1 class="title">Odin Recipes</h1>
+		<div class="recipes" id="all-recipes">
+			<div class"recipes unique" id="cookies">
+				<img class="recipe-img" src="./img/cookies.jpg" height="1104" width="736" alt="A Cookie Image">
+				<p class="recipes credits">Copyright: © 2023, Cheryl Norris</p>
+				<div class="recipes text">
+					<a class="text" href="./recipes/cookies.html">Chocalate Chip Cookies</a>
+					<p class="text">
+					A recipe to make dozens of delicius chocolate chip cookies with
+					crisp edges and chewy middles
+					</p>
+				</div>
+			</div>
 
-		<ul>
-			<li><a href="./recipes/lasagna.html">Lasagna</a></li>
-			<li><a href="./recipes/cookies.html">Cookies</a></li>
-			<li><a href="./recipes/fried-chicken.html">Fried Chicken</a></li>
-		</ul>
+			<div class"recipes unique" id="lasagna">
+				<img class="recipe-img" src="../img/lasagna.jpg" alt="A photo of a Lasagna." height="800" width="1200">
+				<p class="recipes credits">Creator: rawpixel.com | Credit: rawpixel.com</p>
+				<div class="recipes text">
+					<a class="text" href="./recipes/lasagna.html">Lasagna</a>
+				</div>
+			</div>
+
+			<div class"recipes unique" id="fried-chicken">
+				<img class="recipe-img" src="../img/fried_chicken.jpg" alt="A Fried Chicken photo" height="681" width="1024">
+				<p class="recipes credits">
+					<a href="https://commons.wikimedia.org/wiki/File:Fried_Chicken.jpg">Mike DelGaudio from USA</a>,
+					<a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons
+				</p>
+				<div class="recipes text">
+					<a class="text" href="./recipes/fried-chicken.html">Fried Chicken</a>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
