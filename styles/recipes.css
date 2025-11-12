@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	background-color: #90A1B9;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+img {
+	width: 967.5px;
+	height: 500px;
+	border: 5px solid black;
+}
+
+h1 {
+	font-size: 64px;
+}
+
+h2 {
+	margin: 5px 200px;
+}
+
+h3 {
+	font-size: 32px;
+	padding: 32px
+}
+
+.resume {
+	margin: 32px;
+	border: 4px solid black;
+}
+
+.resume p, b {
+	background-color: #FFD230;
+	padding: 8px;
+}
+
+.instructions {
+	background-color: #FFD230;
+	margin: 30px;
+	border: 4px solid black;
+	padding: 32px;
+}
+
+.instructions h3, ul, ol, li, strong{
+	background-color: #FFD230;
+}
+
+.instructions li {
+	text-align: left;
+}
+
+#home {
+	font-size: 24px;
+	text-align: right;
+  float: right;
+	margin: 0 24px 16px;
+}
+
+#instructions-title {
+	padding: 0 32px 32px;
+}

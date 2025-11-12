@@ -16,8 +16,8 @@
 }
 
 .recipe-img {
-	width: 967.5px;
-	height: 500px;
+	width: 100%;
+	height: 600px;
 }
 
 .recipes.credits {
@@ -38,7 +38,7 @@
 #lasagna,
 #cookies,
 #fried-chicken {
-	margin: 64px;
+	margin: 128px;
 	border: 5px solid black;
 	background-color: #FFD230;
 }
